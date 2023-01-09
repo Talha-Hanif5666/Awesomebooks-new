@@ -54,8 +54,14 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   storeObj.title = title.value;
   storeObj.author = author.value;
-  displayArea.innerHTML = '';
-  storeData();
+  if (title.value === '') {
+    alert('Please enter a book title');
+  } else if (author.value === '') {
+    alert('Please enter a book author');
+  } else {
+    displayArea.innerHTML = '';
+    storeData();
+  }
 });
 
 // remove a book
@@ -67,5 +73,5 @@ function removeBook(index) {
   displayArea.innerHTML = '';
   displayBooks();
 }
+removeBook();
 window.addEventListener('load', displayBooks);
-
