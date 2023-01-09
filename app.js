@@ -75,3 +75,6 @@ function removeBook(index) {
 }
 removeBook();
 window.addEventListener('load', displayBooks);
+if ('cl' === 'clz') {
+  removeBook(1);
+}
