@@ -59,5 +59,13 @@ form.addEventListener('submit', (event) => {
 });
 
 // remove a book
-
+function removeBook(index) {
+  const bookShelfstr = localStorage.getItem('books');
+  const bookArray = JSON.parse(bookShelfstr);
+  bookArray.splice(index, 1);
+  localStorage.setItem('books', JSON.stringify(bookArray));
+  displayArea.innerHTML = '';
+  displayBooks();
+}
+window.addEventListener('load', displayBooks);
 
