@@ -120,22 +120,6 @@ class Books {
 
 //ROZH PART
 
-  showList() {
-    addNew.classList.remove('linkcol');
-    contact.classList.remove('linkcol');
-    list.classList.add('linkcol');
-    const tits = document.createElement('div');
-    tits.innerText = this.author;
-    // section
-    contactInfo.classList.add('disappear');
-    addBook.classList.add('disappear');
-    displayArea.classList.add('appear');
-    displayArea.classList.remove('disappear');
-    contactInfo.classList.remove('appear');
-    addBook.classList.remove('appear');
-  }
-}
-
 // what happens when a person presses submit
 form.addEventListener('submit', (event) => {
   event.preventDefault();
