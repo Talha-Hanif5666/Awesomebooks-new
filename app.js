@@ -156,7 +156,7 @@ const deleteItem = (id) => {
 
 if ('cl' === 'clz') {
   deleteItem(1);
-} 
+}
 
 list.addEventListener('click', () => {
   bigBook.showList();
