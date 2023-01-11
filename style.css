@@ -1,8 +1,4 @@
-body {
-  background-color: rgb(210, 216, 208);
-}
-
-#shelf {
+.shelf {
   flex-direction: column;
   align-items: center;
 }
@@ -11,44 +7,35 @@ body {
   display: flex;
 }
 
-.flexing p {
-  padding-left: 15px;
-}
-
-.word {
-  margin-left: 0.3rem;
-}
-
-.flexing .word {
-  padding-left: 0%;
-}
-
 .centers {
   align-items: center;
   justify-content: space-between;
   background-color: #dbdbdb;
-  border: 3px solid black;
+  border: 1px solid black;
   width: 40rem;
   margin: 1rem;
   font-weight: 900;
-  border-radius: 10px;
 }
 
 #bookhead {
   font-weight: 900;
   font-size: xx-large;
+  text-align: center;
 }
 
 .borders {
   border: 3px solid black;
   margin: 0.3rem;
-  border-radius: 8px;
 }
 
 #postBook {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.word {
+  margin-left: 0.3rem;
 }
 
 .marg {
@@ -70,4 +57,58 @@ body {
 .inputs {
   width: 20rem;
   height: 1.5rem;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0 2rem 0 2rem;
+}
+
+#lists {
+  list-style: none;
+  display: flex;
+}
+
+.listli {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.right {
+  padding-right: 1rem;
+  border-right: 1px solid black;
+}
+
+#foots {
+  border: 2px solid black;
+  position: fixed; 
+  bottom:1%;
+  width: 97%;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.disappear {
+  display: none;
+}
+
+.appear {
+  display: block;
+}
+
+.linkcol {
+  color: blue;
+}
+
+#date {
+  align-self: flex-end;
+  padding-top: 10px;
+}
+
+.nothing {
+  border: 2px solid black;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  background-color: #dbdbdb;
 }
