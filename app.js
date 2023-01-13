@@ -118,8 +118,6 @@ class Books {
     addBook.classList.remove('appear');
   }
 
-//ROZH PART
-
   showList() {
     addNew.classList.remove('linkcol');
     contact.classList.remove('linkcol');
