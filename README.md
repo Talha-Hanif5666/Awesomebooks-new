@@ -50,7 +50,7 @@
 
 > Our live demo can be found on
 
-- [Live Demo Link](https://leehaney254.github.io/AwsomeBooks/)
+- [Live Demo Link](https://talha-hanif5666.github.io/Awesomebook-new-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
